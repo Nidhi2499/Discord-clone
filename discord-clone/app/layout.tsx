@@ -21,7 +21,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={cn(font.className,
-          "bg-white dark: bg-[#313338]"
+          " bg-white dark: bg-[#313338]"
         )}>
           <ThemeProvider
             attribute="class"
